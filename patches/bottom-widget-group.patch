@@ -1,0 +1,15 @@
+--- /home/phi/.config/quickshell/ii.bak-2026-10-12/modules/ii/sidebarRight/BottomWidgetGroup.qml	2026-10-12 10:36:28.888140317 +0700
++++ /home/phi/.config/quickshell/ii/modules/ii/sidebarRight/BottomWidgetGroup.qml	2026-10-12 10:48:54.319811359 +0700
+@@ -36,6 +36,12 @@
+             "icon": "schedule",
+             "widget": "pomodoro/PomodoroWidget.qml"
+         },
++        {
++            "type": "prayer",
++            "name": "Prayer",
++            "icon": "mosque",
++            "widget": "prayer/PrayerWidget.qml"
++        },
+     ]
+ 
+     Behavior on implicitHeight {
